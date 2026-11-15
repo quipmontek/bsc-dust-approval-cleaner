@@ -1,0 +1,26 @@
+{
+  "tool": "bsc-dust-approval-cleaner",
+  "version": "1.0.0",
+  "chain": {
+    "id": 56,
+    "name": "BNB Smart Chain"
+  },
+  "wallet": "0x2259faa64d3b97d1d6889caeac719e4c64c23e98",
+  "scannedAt": "2026-11-15T00:00:44.626Z",
+  "coverage": {
+    "tokensChecked": 462,
+    "spendersChecked": 5,
+    "tokenListSource": "https://tokens.1inch.io/v1.1/56",
+    "tokenListError": null,
+    "note": "Approvals are found by direct allowance() checks against a token universe (1inch BSC list + curated set) and a known-spender list. An approval to a spender or token outside these lists is NOT visible to this scan; a full-history scan needs an indexer or archive node."
+  },
+  "summary": {
+    "dustApprovals": 0,
+    "liveApprovals": 0,
+    "unknownBalance": 0,
+    "unlimitedApprovals": 0
+  },
+  "dustApprovals": [],
+  "liveApprovals": [],
+  "unknownBalanceApprovals": []
+}
